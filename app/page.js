@@ -21,7 +21,7 @@ export default function Page() {
 
       {/* Footer */}
       <div className="pb-6 text-center">
-        <p className="text-xs sm:text-sm text-white font-mono">© 2025 Asymmetric Labs Inc.</p>
+        <p className="text-xs sm:text-sm text-white font-mono">© 2025 MRKETR Labs Inc.</p>
       </div>
     </div>
   );
