@@ -4,7 +4,7 @@ export default function Page() {
       {/* Main Content */}
       <div className="flex flex-1 items-center justify-center">
         <div className="max-w-xl w-full text-center sm:text-left space-y-5">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-sans leading-tight">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-inter leading-tight">
             We Build No BS Applications
           </h1>
           <p className="text-sm sm:text-base lg:text-lg text-white font-sans leading-relaxed">
