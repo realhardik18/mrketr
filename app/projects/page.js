@@ -6,12 +6,12 @@ const projects = [
     {
       name: "Faithly",
       description: "An app that helps users improve their posture and track height-related goals.",
-      url: "#",
+      url: "https://apps.apple.com/us/app/faithly-bible-chat/id6737165110",
     },
     {
       name: "LockedIn",
       description: "AI-powered analysis tool for optimizing fitness and diet plans.",
-      url: "#",
+      url: "https://apps.apple.com/us/app/lockedin-screen-time-focus/id6466096636",
     },
     {
       name: "TestMax AI",
