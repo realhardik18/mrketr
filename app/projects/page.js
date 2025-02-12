@@ -1,33 +1,34 @@
 'use client'
 import { useState } from "react";
+import { FiExternalLink } from "react-icons/fi";
 
 const projects = [
-  {
-    name: "Faithly",
-    description: "An app that helps users improve their posture and track height-related goals.",
-    url: "#",
-  },
-  {
-    name: "LockedIn",
-    description: "AI-powered analysis tool for optimizing fitness and diet plans.",
-    url: "#",
-  },
-  {
-    name: "TestMax AI",
-    description: "",
-    url: "#",
-  },
-  {
-    name: "Clip Pay",
-    description: "",
-    url: "#",
-  },  
-  {
-    name: "Viral Gen",
-    description: "",
-    url: "#",
-  }
-];
+    {
+      name: "Faithly",
+      description: "An app that helps users improve their posture and track height-related goals.",
+      url: "#",
+    },
+    {
+      name: "LockedIn",
+      description: "AI-powered analysis tool for optimizing fitness and diet plans.",
+      url: "#",
+    },
+    {
+      name: "TestMax AI",
+      description: "",
+      url: "#",
+    },
+    {
+      name: "Clip Pay",
+      description: "",
+      url: "#",
+    },  
+    {
+      name: "Viral Gen",
+      description: "",
+      url: "#",
+    }
+  ];
 
 export default function ProjectsPage() {
   return (
@@ -37,15 +38,17 @@ export default function ProjectsPage() {
       <div className="w-full max-w-2xl mt-6">
         {projects.map((project, index) => (
           <div key={index} className="border-b border-gray-700 py-4 flex justify-between items-center">
-            <span className="text-lg font-medium">{project.name}</span>
-            <a
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-gray-800 text-gray-300 px-3 py-1 text-sm rounded hover:bg-gray-600 transition"
-            >
-              Visit
-            </a>
+            <span className="text-lg font-medium flex items-center">
+              {project.name}
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-2 text-gray-400 hover:text-white transition"
+              >
+                <FiExternalLink size={16} />
+              </a>
+            </span>
           </div>
         ))}
       </div>
